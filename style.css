@@ -8,8 +8,12 @@ section {
 }
 
 .task-one p::before {
-    content: "Once upon a time ...";
+    content: "Once upon a time... ";
 }
 .task-one p::after {
     content: "... The end.";
+}
+.task-two img {
+    height: 200px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
