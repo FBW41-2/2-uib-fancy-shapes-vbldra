@@ -6,14 +6,32 @@ html, body {
 section {
     margin-top: 10px;
 }
-
+.task-one {
+    background-color: cyan;
+}
 .task-one p::before {
     content: "Once upon a time... ";
+    background-color: slateblue;
+    font-weight: bold;
+    font-style: italic;
 }
 .task-one p::after {
     content: "... The end.";
+    background-color: slateblue;
+    font-weight: bold;
+    font-style: italic;
 }
-.task-two img {
+.task-two {
     height: 200px;
+    width: 300px;
+    background-image: url(assets/beach.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.task-three img {
+    width: 200px;
+    transform: rotate(180deg);
 }
